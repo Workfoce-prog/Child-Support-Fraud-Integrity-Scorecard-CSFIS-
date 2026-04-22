@@ -1,0 +1,19 @@
+{
+  "notes": "Optional county-specific threshold overrides for local calibration.",
+  "default_thresholds": {
+    "low_max": 29,
+    "moderate_max": 59,
+    "high_max": 79
+  },
+  "county_overrides": {
+    "Hennepin": {
+      "moderate_max": 57
+    },
+    "Ramsey": {
+      "moderate_max": 58
+    },
+    "St. Louis": {
+      "high_max": 77
+    }
+  }
+}
